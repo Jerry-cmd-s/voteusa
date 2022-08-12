@@ -1,0 +1,58 @@
+<?php
+$servername =" localhost";
+$username = "username";
+$password ="password";
+$dbname = "myDB";
+
+//Now, I am going to create a connection 
+$conn = new mysqli($servername,$username,$password,$dbname);
+//Now,I have to check my connection
+if ($conn->connect_error)
+{
+    die("connection failed:" .$conn->connect_error);
+}
+
+?>
+
+
+
+
+=====================================================================================================================================================================
+  <?php 
+
+$lname = $_POST['lname'];
+$fname= $_POST['fname'];
+$sex= $_POST['sex'];
+$ethnicity= $_POST['ethnicity'];
+$age= $_POST['age'];
+$candidates= $_POST['candidates'];
+
+echo "LastName: $lname";
+
+echo " FirstName: $fname";
+echo "Sex: $sex";
+echo "Ethnicity: $ethnicity";
+ echo "age: $age";
+ echo "candidates : $candidates";s
+
+?>
+11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+issues
+This may be due to a blocked port, missing dependencies,	\improper privileges, a crash, or a shutdown by another method.
+
+Jerry20022003@!
+
+
+========================================================
+SQL                                                     ||||
+========================================================
+CREATE TABLE `voter`.`new_table` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `lastname` VARCHAR(45) NULL,
+  `firstname` VARCHAR(45) NULL,
+  `sex` INT NULL,
+  `ethnicity` INT NULL,
+  `yob` INT NULL,
+  `candidates` INT NULL,
+  PRIMARY KEY (`id`));
+

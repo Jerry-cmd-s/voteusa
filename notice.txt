@@ -1,0 +1,2 @@
+connection between database and 
+Review on services(we had to run teh msql service on a xamp server)
