@@ -1,8 +1,8 @@
-<?php
-$host ="localhost";
-$username = "root";
-$password ="Jerry20022003#";
-$dbname = "voter";
+<?phps
+$host ="us-cdbr-east-06.cleardb.net";
+$username = "b7c021285b9ee5";
+$password ="15bf16c9";
+$dbname = "heroku_1c3d051f394d960";
 
 
 
