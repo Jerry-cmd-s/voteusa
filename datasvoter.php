@@ -1,4 +1,4 @@
-<?phps
+<?php
 $host ="us-cdbr-east-06.cleardb.net";
 $username = "b7c021285b9ee5";
 $password ="15bf16c9";
